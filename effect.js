@@ -204,13 +204,13 @@ $("document").ready(function () {
     function msgLoop(i) {
       $("p:nth-child(" + i + ")")
         .fadeOut("slow")
-        .delay(800)
+        .delay(999)
         .promise()
         .done(function () {
           i = i + 1;
           $("p:nth-child(" + i + ")")
             .fadeIn("slow")
-            .delay(1000);
+            .delay(1111);
           if (i == 50) {
             $("p:nth-child(49)")
               .fadeOut("slow")
